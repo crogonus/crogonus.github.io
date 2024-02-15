@@ -1,0 +1,23 @@
+---
+---
+
+@import
+  "minima/skins/{{ site.minima.skin | default: 'dark' }}",
+  "minima/initialize";
+
+body {
+
+    background: rgb(112, 106, 106) ;
+
+}
+.post{
+    background: rgb(112, 106, 106) ;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
