@@ -1,10 +1,13 @@
-source "https://rubygems.org"
+# frozen_string_literal: true
 
-gem 'jekyll', '~> 3.9.3'
-gem 'jekyll-paginate' # for pagination
-gem 'github-pages', group: :jekyll_plugins # for github pages
-# gem 'minima',  github: "jekyll/minima" # for github pages
-gem "webrick", "~> 1.8"
-gem "jekyll-include-cache"
-gem "jekyll-remote-theme"
-# gem "minimal-mistakes-jekyll"
+source "https://rubygems.org"
+gemspec
+
+group :jekyll_plugins do
+    gem "jekyll-feed", "~> 0.6"
+    gem "jekyll-sitemap"
+    gem "jekyll-paginate"
+    gem "jekyll-seo-tag"
+    gem 'jekyll-redirect-from'
+end
+
