@@ -1,82 +1,45 @@
-# Site Settings
-lang: en
-title: Bulma Clean Theme
-tagline: Bulma Clean Theme
-email: your-email@domain.com
-description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
-permalink: pretty
-#favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
-
-paginate: 5
-paginate_path: "/blog/page:num"
-
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: csrhymes
-
+#theme: jekyll-theme-hydejack
+remote_theme: chrisrhymes/bulma-clean-theme
 
 plugins:
-  - jekyll-sitemap
+  - jekyll-remote-theme 
+  - jekyll-include-cache # add this line to the plugins list if you already have one
   - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
+  - jekyll-include-cache
 
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-livereload: true
-
-sass:
-  style: compressed
-  source_dir: _sass
-
-#google_analytics: UA-code-here
+title: hola ASIR2
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
+  - scope:
+      path: "assets/img"
     values:
-      show_sidebar: true
-  -
-    scope:
+      image: true
+    # _posts
+  - scope:
       path: ""
-      type: "posts"
+      type: posts
     values:
-      author: "C.S. Rhymes"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
-
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
 
 collections:
-  products: 
+  members:
     output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+
+
+
+# número de posts por página
+paginate: 2
+paginate_path: /blog/page:num/
+
+
+
+minima:
+  skin: dark
+
+name: oscar novillo
+  

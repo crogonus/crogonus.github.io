@@ -1,0 +1,10 @@
+[
+    { "nombre": "Gaming", "nivel": 90, "sexo": "M" },
+    { "nombre": "Bennett", "nivel": 90, "sexo": "M" },
+    { "nombre": "Thoma", "nivel": 90, "sexo": "M" },
+    { "nombre": "Dehya", "nivel": 90, "sexo": "F" },
+    { "nombre": "Chongyun", "nivel": 90, "sexo": "M" },
+    { "nombre": "Clorinde", "nivel": 80, "sexo": "F" },
+    { "nombre": "Xianyun", "nivel": 90, "sexo": "F" },
+    { "nombre": "Shenhe", "nivel": 90, "sexo": "F"}
+]
