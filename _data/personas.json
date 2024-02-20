@@ -1,7 +1,0 @@
-[
-    { "nombre": "flan", "ingredientes": "flan", "preparacion": "semifrios" },
-    { "nombre": "macedonia", "ingredientes": "frutas", "preparacion": "frios" },
-    { "nombre": "torrijas", "ingredientes": "base de lactosa", "preparacion": "fritos" },
-    { "nombre": "tarta de queso", "ingredientes": "huevo", "preparacion": "caliente" },
-    { "nombre": "natillas", "ingredientes": "base de lactosa", "preparacion": "caliente" }
-]
