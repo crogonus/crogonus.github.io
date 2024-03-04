@@ -1,0 +1,12 @@
+[
+    { "nombre": "Ana",     "notas": 19, "sexo": "F" },
+    { "nombre": "María",   "notas": 25, "sexo": "F" },
+    { "nombre": "Juan",    "notas": 20, "sexo": "M" },
+    { "nombre": "Pablo",   "notas": 27, "sexo": "M" },
+    { "nombre": "Laura",   "notas": 22, "sexo": "F" },
+    { "nombre": "Javier",  "notas": 17, "sexo": "M" },
+    { "nombre": "Pedro",   "notas": 32, "sexo": "M" },
+    { "nombre": "Sandra",  "notas": 28, "sexo": "F" },
+    { "nombre": "Mario",   "notas": 24, "sexo": "M" },
+    { "nombre": "Julia",   "notas": 41, "sexo": "F"}
+]

@@ -5,6 +5,6 @@ title: personajes
 
 # Personajes
 
-{% for personaje in site.data.personajes %}
-  ## {{ personajes.nombre }} - {{ personajes.nivel }} - {{ personajes.sexo }}
+{% for personaje in site.data.notas %}
+  ## {{ notas.nombre }} - {{ notas.notas }} - {{ notas.sexo }}
 {% endfor %}
