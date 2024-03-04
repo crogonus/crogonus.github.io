@@ -1,9 +1,9 @@
 ---
-title: personajes
+title: notas
 
 ---
 
-# Personajes
+# Notas
 
 {% for notas in site.data.notas %}
   ## {{ notas.nombre }} - {{ notas.notas }} - {{ notas.sexo }}
