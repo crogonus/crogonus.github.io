@@ -1,10 +1,10 @@
 ---
-title: notas
+title: personajes
 
 ---
 
-# Notas
+# Personajes
 
-{% for nota in site.data.notas %}
-  ## {{ notas.nombre }} - {{ notas.notas }} - {{ notas.sexo }}
+{% for personaje in site.data.personajes %}
+  ## {{ personajes.nombre }} - {{ personajes.nivel }} - {{ personajes.sexo }}
 {% endfor %}
