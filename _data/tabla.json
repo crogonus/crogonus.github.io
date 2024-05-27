@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "pedro",
+        "primer apellido": "toledo",
+        "segundo apellido": "sombrio",
+        "fecha nacimiento": 2000
+    },
+
+    {
+        "nombre": "maria",
+        "primer apellido": "pineda",
+        "segundo apellido": "roja",
+        "fecha nacimiento": 2001
+    },
+
+    {
+        "nombre": "luis",
+        "primer apellido": "gonzalez",
+        "segundo apellido": "segundo",
+        "fecha nacimiento": 2002
+    },
+
+    {
+        "nombre": "maria",
+        "primer apellido": "primera",
+        "segundo apellido": "austria",
+        "fecha nacimiento": 2003
+    }
+
+]
