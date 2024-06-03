@@ -9,7 +9,7 @@ permalink: /
 
 ### POST
 
-![Post](/_posts/2024-05-27-pagina1.md)
+<a href="/_posts/2024-05-27-pagina1.md">Pagina1</a>
 
 ---
 
