@@ -1,30 +1,30 @@
 [
     {
         "nombre": "pedro",
-        "primer apellido": "toledo",
-        "segundo apellido": "sombrio",
-        "fecha nacimiento": 2000
+        "primer": "toledo",
+        "segundo": "sombrio",
+        "fecha": 2000
     },
 
     {
         "nombre": "maria",
-        "primer apellido": "pineda",
-        "segundo apellido": "roja",
-        "fecha nacimiento": 2001
+        "primer": "pineda",
+        "segundo": "roja",
+        "fecha": 2001
     },
 
     {
         "nombre": "luis",
-        "primer apellido": "gonzalez",
-        "segundo apellido": "segundo",
-        "fecha nacimiento": 2002
+        "primer": "gonzalez",
+        "segundo": "segundo",
+        "fecha": 2002
     },
 
     {
         "nombre": "julian",
-        "primer apellido": "rodrigez",
-        "segundo apellido": "pol",
-        "fecha nacimiento": 2003
+        "primer": "rodrigez",
+        "segundo": "pol",
+        "fecha": 2003
     }
 
 ]
