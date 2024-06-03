@@ -9,7 +9,9 @@ permalink: /
 
 ### POST
 
-[posts](/_posts/2024-05-27-pagina1.md)
+
+
+{{site.posts}}
 
 ---
 
